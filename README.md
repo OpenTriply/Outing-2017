@@ -1,5 +1,36 @@
 # Outing 2017
 
+## Example: Amsterdam
+
+CBS code: 0363
+
+BAG code: 3594
+
+BAG code (veroudert): 1024
+
+## Article
+
+### What messages would you like to convey?
+
+The availability of voting locations impacts voter turnout.
+
+### What is it newsworthy?
+
+Dutch municipalities receive a subsidy to organize elections.  Some
+municipalities choose to open fewer voting locations.
+
+### Who are you writing for?
+
+The general public with voting rights.
+
+  1. Did vote.
+  2. Did not vote: “Why you didn't vote”
+
+### How knowldedgeable is your audience?
+
+Knows what voting is.  Probably old enough to be eligible for voting
+themselves.
+
 ## Data
 
 ### Kieslokalen
