@@ -66,12 +66,17 @@ function getBagMunicipalityCode(pollingStation, forWkt) {
       }
     }, console.error)
 }
+const currentMappings = fs.readFileSync('mappings', 'utf8');
 const writeStream = fs.createWriteStream('mappings', {flags:'a'})
 async function run() {
   const pollingStations = await getPollingStations();
   var i = 0;
   var length = pollingStations.length;
   for (var station of pollingStations) {
+    if (currentMappings.indexOf(station.pollingStation) >= 0) {
+      i++;
+      continue
+    }
     process.stdout.write(`${i}/${length}\r`)
     const woonplaats = await getBagMunicipalityCode(station.pollingStation, station.wkt)
     writeStream.write(station.pollingStation + '\t' + woonplaats + '\n')
