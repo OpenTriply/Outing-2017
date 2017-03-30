@@ -30,7 +30,7 @@ function getPollingStations() {
         }
       })
       // console.log(result.body)
-    }, console.error)
+    })
 }
 function getBagMunicipalityCode(pollingStation, forWkt) {
   return request.post(PDOK)
