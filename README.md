@@ -4,7 +4,7 @@
 
 ### Kieslokalen
 
-Mogelijke bron: [link](http://data.openstate.eu/dataset/locaties-stembureaus/resource/875d7a2c-c8d3-4c4e-8897-0376ce4308cc)
+Mogelijke bron: [link](http://data.openstate.eu/dataset/locaties-stembureaus)
 
 De volgende data hebben we over de kielokalen:
 
