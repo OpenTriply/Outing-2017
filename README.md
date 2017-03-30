@@ -10,12 +10,6 @@ BAG code (veroudert): 1024
 
 ## Article
 
-Setting the scene: Your municipality.  Low turnout rate.
-Problem: the government wants to manipulate elections by disincentivising people to vote in certain districts
-Development
-Solution
-Glance at the future
-
 ### What messages would you like to convey?
 
 The availability of voting locations impacts voter turnout.
